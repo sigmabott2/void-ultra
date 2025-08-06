@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" data-mode="dark" data-stealth="false" class="space-theme">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>VOID Ultra</title>
+<!-- Google Fonts for space style -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+<!-- Your existing stylesheet -->
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Distant Satellite Dot (upper left) -->
+<div class="distant-dot" title="Satellite"></div>
+
+<!-- Starfield Backdrop -->
+<div class="starfield"></div>
+
+<!-- Dashboard Splash with VOID Orb Image (your existing) -->
+<div id="dashboard-splash">
+  <img src="assets/bg/void_orb.png" alt="VOID splash" />
+</div>
+
+<!-- Navigation Bar -->
+<header>
+  <div class="nav-left">
+    <button class="nav-btn" data-category="games">GAMES</button>
+    <button class="nav-btn" data-category="apps">APPS</button>
+    <button class="nav-btn" data-category="media">MEDIA</button>
+    <button class="nav-btn" data-category="ai">AI</button>
+    <button class="nav-btn" data-category="settings">SETTINGS</button>
+  </div>
+  <div class="nav-right">
+    <button id="logoutBtn" class="pill-btn">Eject</button>
+  </div>
+</header>
+
+<!-- Orb + Tagline, central space orb, and VOID text -->
+<section class="central-section">
+  <!-- Glowing Central Orb with space style -->
+  <div class="orb-container">
+    <div class="orb" id="centralOrb"></div>
+  </div>
+  <!-- VOID Text -->
+  <div class="void-text">VOID</div>
+  <!-- Tagline -->
+  <div class="tagline">Slip into the Void...</div>
+  <!-- URL Input & Surf Button -->
+  <div class="url-input-container">
+    <input type="text" id="urlInput" placeholder="Enter URL to slip into the Void..." />
+    <button id="surfBtn" class="pill-btn shimmer">Surf</button>
+  </div>
+</section>
+
+<!-- Launch Tiles -->
+<section class="launch-tiles" id="launchTiles"></section>
+
+<!-- Stealth Bottom Panel -->
+<div class="stealth-panel" id="stealthPanel">
+  <label>
+    <input type="checkbox" id="stealthModeToggle" /> Stealth Mode
+  </label>
+  <button id="wipeHistoryBtn" class="blue-btn small-btn">Wipe History</button>
+</div>
+
+<!-- Modal iframe -->
+<div id="iframeModal" class="modal hidden">
+  <div class="modal-content">
+    <button id="closeIframe">×</button>
+    <div id="iframeContainer"></div>
+  </div>
+</div>
+
+<!-- Admin Dot -->
+<div id="adminDot" title="Admin Panel"></div>
+
+<!-- Admin Modal -->
+<div id="adminModal" class="modal hidden">
+  <div class="modal-content">
+    <button id="closeAdmin">×</button>
+    <h3>Admin Panel</h3>
+    <!-- Users with block/unblock buttons -->
+    <div class="user" data-user="TheAlpha">
+      <span>TheAlpha</span>
+      <button class="blockBtn" data-user="TheAlpha">Block</button>
+      <button class="unblockBtn" data-user="TheAlpha" style="display:none;">Unblock</button>
+    </div>
+    <div class="user" data-user="TheMonkey">
+      <span>TheMonkey</span>
+      <button class="blockBtn" data-user="TheMonkey">Block</button>
+      <button class="unblockBtn" data-user="TheMonkey" style="display:none;">Unblock</button>
+    </div>
+    <div class="user" data-user="TanTan">
+      <span>TanTan</span>
+      <button class="blockBtn" data-user="TanTan">Block</button>
+      <button class="unblockBtn" data-user="TanTan" style="display:none;">Unblock</button>
+    </div>
+  </div>
+</div>
+
+<!-- Chat Panel -->
+<div id="chatPanel" class="chat">
+  <div class="chat-header">Global Chat</div>
+  <div id="chatMessages"></div>
+  <div class="chat-input">
+    <input type="text" id="chatInput" placeholder="Type your message..." />
+    <button id="chatSend">Send</button>
+  </div>
+</div>
+
+<!-- Scripts: your core scripts + additional ones -->
+<script src="js/orb.js"></script>
+<script src="js/surfHandler.js"></script>
+<script src="js/chat.js"></script>
+<script src="js/admin.js"></script>
+<script src="js/fallback.js"></script>
+<script src="script.js"></script>
+<!-- Additional scripts -->
+<script src="admin/adminHandler.js"></script>
+<script src="chat/chatHandler.js"></script>
+<script src="stealth/cloak.js"></script>
+
+</body>
+</html>
