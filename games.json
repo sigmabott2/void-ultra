@@ -1,0 +1,516 @@
+{
+  "games": [
+    {
+      "id": "run-3",
+      "name": "Run 3",
+      "url": "https://www.coolmathgames.com/0-run-3",
+      "category": "Platformer",
+      "icon": "assets/icons/games/run-3.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.coolmathgames.com/0-run-3",
+      "autoplay": false
+    },
+    {
+      "id": "vex-6",
+      "name": "Vex 6",
+      "url": "https://vex6.io",
+      "category": "Platformer",
+      "icon": "assets/icons/games/vex-6.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://vex6.io",
+      "autoplay": false
+    },
+    {
+      "id": "fireboy-watergirl",
+      "name": "Fireboy & Watergirl",
+      "url": "https://www.coolmathgames.com/0-fireboy-and-water-girl-in-the-forest-temple",
+      "category": "Platformer",
+      "icon": "assets/icons/games/fireboy-watergirl.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.coolmathgames.com/0-fireboy-and-water-girl-in-the-forest-temple",
+      "autoplay": false
+    },
+    {
+      "id": "bob-the-robber",
+      "name": "Bob the Robber",
+      "url": "https://www.coolmathgames.com/0-bob-the-robber",
+      "category": "Platformer",
+      "icon": "assets/icons/games/bob-the-robber.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.coolmathgames.com/0-bob-the-robber",
+      "autoplay": false
+    },
+    {
+      "id": "stickman-hook",
+      "name": "Stickman Hook",
+      "url": "https://stickman-hook.io",
+      "category": "Platformer",
+      "icon": "assets/icons/games/stickman-hook.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://stickman-hook.io",
+      "autoplay": false
+    },
+    {
+      "id": "red-ball-4",
+      "name": "Red Ball 4",
+      "url": "https://playredball4.com",
+      "category": "Platformer",
+      "icon": "assets/icons/games/red-ball-4.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://playredball4.com",
+      "autoplay": false
+    },
+    {
+      "id": "ovo",
+      "name": "OvO",
+      "url": "https://www.coolmathgames.com/0-ovo",
+      "category": "Platformer",
+      "icon": "assets/icons/games/ovo.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.coolmathgames.com/0-ovo",
+      "autoplay": false
+    },
+    {
+      "id": "fancy-pants",
+      "name": "Fancy Pants Adventures",
+      "url": "https://www.crazygames.com/game/fancy-pants-adventure-world",
+      "category": "Platformer",
+      "icon": "assets/icons/games/fancy-pants.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.crazygames.com/game/fancy-pants-adventure-world",
+      "autoplay": false
+    },
+    {
+      "id": "super-mario-flash",
+      "name": "Super Mario Flash",
+      "url": "https://en.gameslol.net/super-mario-flash-31.html",
+      "category": "Platformer",
+      "icon": "assets/icons/games/super-mario-flash.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://en.gameslol.net/super-mario-flash-31.html",
+      "autoplay": false
+    },
+    {
+      "id": "dino-game",
+      "name": "Dino Game",
+      "url": "https://chromedino.com",
+      "category": "Retro",
+      "icon": "assets/icons/games/dino-game.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://chromedino.com",
+      "autoplay": false
+    },
+    {
+      "id": "2048",
+      "name": "2048",
+      "url": "https://www.2048.org",
+      "category": "Puzzle",
+      "icon": "assets/icons/games/2048.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.2048.org",
+      "autoplay": false
+    },
+    {
+      "id": "cut-the-rope",
+      "name": "Cut the Rope",
+      "url": "https://www.crazygames.com/game/cut-the-rope-ebx",
+      "category": "Puzzle",
+      "icon": "assets/icons/games/cut-the-rope.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.crazygames.com/game/cut-the-rope-ebx",
+      "autoplay": false
+    },
+    {
+      "id": "impossible-quiz",
+      "name": "Impossible Quiz",
+      "url": "https://www.crazygames.com/game/the-impossible-quiz",
+      "category": "Puzzle",
+      "icon": "assets/icons/games/impossible-quiz.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.crazygames.com/game/the-impossible-quiz",
+      "autoplay": false
+    },
+    {
+      "id": "bloxorz",
+      "name": "Bloxorz",
+      "url": "https://www.coolmathgames.com/0-bloxorz",
+      "category": "Puzzle",
+      "icon": "assets/icons/games/bloxorz.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.coolmathgames.com/0-bloxorz",
+      "autoplay": false
+    },
+    {
+      "id": "sudoku",
+      "name": "Sudoku",
+      "url": "https://sudoku.com",
+      "category": "Puzzle",
+      "icon": "assets/icons/games/sudoku.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://sudoku.com",
+      "autoplay": false
+    },
+    {
+      "id": "chess",
+      "name": "Chess.com Lite",
+      "url": "https://www.chess.com",
+      "category": "Strategy",
+      "icon": "assets/icons/games/chess.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.chess.com",
+      "autoplay": false
+    },
+    {
+      "id": "minesweeper",
+      "name": "Minesweeper",
+      "url": "https://minesweeperonline.com",
+      "category": "Puzzle",
+      "icon": "assets/icons/games/minesweeper.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://minesweeperonline.com",
+      "autoplay": false
+    },
+    {
+      "id": "connect-4",
+      "name": "Connect 4",
+      "url": "https://papergames.io/en/connect4",
+      "category": "Puzzle",
+      "icon": "assets/icons/games/connect-4.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://papergames.io/en/connect4",
+      "autoplay": false
+    },
+    {
+      "id": "mastermind",
+      "name": "Mastermind",
+      "url": "https://mastermindgame.net/#/",
+      "category": "Puzzle",
+      "icon": "assets/icons/games/mastermind.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://mastermindgame.net/#/",
+      "autoplay": false
+    },
+    {
+      "id": "lightbot",
+      "name": "Lightbot",
+      "url": "https://www.gameflare.com/online-game/light-bot/",
+      "category": "Puzzle",
+      "icon": "assets/icons/games/lightbot.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.gameflare.com/online-game/light-bot/",
+      "autoplay": false
+    },
+    // Part 2 - Next 13 games
+    {
+      "id": "moto-x3m",
+      "name": "Moto X3M",
+      "url": "https://motox3m.gitlab.io",
+      "category": "Racing",
+      "icon": "assets/icons/games/moto-x3m.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://motox3m.gitlab.io",
+      "autoplay": false
+    },
+    {
+      "id": "drift-hunters",
+      "name": "Drift Hunters",
+      "url": "https://drift-hunters.co/drift-hunters-games",
+      "category": "Racing",
+      "icon": "assets/icons/games/drift-hunters.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://drift-hunters.co/drift-hunters-games",
+      "autoplay": false
+    },
+    {
+      "id": "hill-climb",
+      "name": "Hill Climb Racing",
+      "url": "https://poki.com/en/g/hill-c...
+      "category": "Racing",
+      "icon": "assets/icons/games/hill-climb.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://poki.com/en/g/hill-climb-racing-lite",
+      "autoplay": false
+    },
+    {
+      "id": "car-rush",
+      "name": "Car Rush",
+      "url": "https://poki.com/en/g/car-rush",
+      "category": "Racing",
+      "icon": "assets/icons/games/car-rush.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://poki.com/en/g/car-rush",
+      "autoplay": false
+    },
+    {
+      "id": "jelly-truck",
+      "name": "Jelly Truck",
+      "url": "https://www.coolmathgames.com/0-jelly-truck",
+      "category": "Racing",
+      "icon": "assets/icons/games/jelly-truck.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.coolmathgames.com/0-jelly-truck",
+      "autoplay": false
+    },
+    {
+      "id": "stunt-simulator",
+      "name": "Stunt Simulator",
+      "url": "https://www.silvergames.com/en/stunt-simulator",
+      "category": "Racing",
+      "icon": "assets/icons/games/stunt-simulator.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.silvergames.com/en/stunt-simulator",
+      "autoplay": false
+    },
+    {
+      "id": "madalin-cars",
+      "name": "Madalin Stunt Cars 2",
+      "url": "https://www.crazygames.com/game/madalin-stunt-cars-2",
+      "category": "Racing",
+      "icon": "assets/icons/games/madalin-cars.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.crazygames.com/game/madalin-stunt-cars-2",
+      "autoplay": false
+    },
+    {
+      "id": "bike-mania",
+      "name": "Bike Mania",
+      "url": "https://www.crazygames.com/game/bike-mania",
+      "category": "Racing",
+      "icon": "assets/icons/games/bike-mania.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.crazygames.com/game/bike-mania",
+      "autoplay": false
+    },
+    {
+      "id": "monster-tracks",
+      "name": "Monster Tracks",
+      "url": "https://playtropolis.com/Monster-tracks",
+      "category": "Racing",
+      "icon": "assets/icons/games/monster-tracks.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://playtropolis.com/Monster-tracks",
+      "autoplay": false
+    },
+    {
+      "id": "speed-racing",
+      "name": "Speed Racing Pro 2",
+      "url": "https://www.crazygames.com/game/speed-racing-pro-2",
+      "category": "Racing",
+      "icon": "assets/icons/games/speed-racing.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.crazygames.com/game/speed-racing-pro-2",
+      "autoplay": false
+    },
+    // Part 3 - Last 22 games
+    {
+      "id": "pac-man",
+      "name": "Pac-Man",
+      "url": "https://www.pacman1.net",
+      "category": "Retro",
+      "icon": "assets/icons/games/pac-man.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.pacman1.net",
+      "autoplay": false
+    },
+    {
+      "id": "flappy-bird",
+      "name": "Flappy Bird",
+      "url": "https://flappybird.guru",
+      "category": "Retro",
+      "icon": "assets/icons/games/flappy-bird.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://flappybird.guru",
+      "autoplay": false
+    },
+    {
+      "id": "geometry-dash",
+      "name": "Geometry Dash",
+      "url": "https://geometrydash.io",
+      "category": "Arcade",
+      "icon": "assets/icons/games/geometry-dash.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://geometrydash.io",
+      "autoplay": false
+    },
+    {
+      "id": "space-invaders",
+      "name": "Space Invaders",
+      "url": "https://freeinvaders.org",
+      "category": "Retro",
+      "icon": "assets/icons/games/space-invaders.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://freeinvaders.org",
+      "autoplay": false
+    },
+    {
+      "id": "breakout",
+      "name": "Breakout",
+      "url": "https://www.coolmathgames.com/0-atari-breakout",
+      "category": "Arcade",
+      "icon": "assets/icons/games/breakout.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.coolmathgames.com/0-atari-breakout",
+      "autoplay": false
+    },
+    {
+      "id": "asteroids",
+      "name": "Asteroids",
+      "url": "https://freeasteroids.org",
+      "category": "Retro",
+      "icon": "assets/icons/games/asteroids.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://freeasteroids.org",
+      "autoplay": false
+    },
+    {
+      "id": "pong",
+      "name": "Pong",
+      "url": "https://www.ponggame.org",
+      "category": "Retro",
+      "icon": "assets/icons/games/pong.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.ponggame.org",
+      "autoplay": false
+    },
+    {
+      "id": "duck-hunt",
+      "name": "Duck Hunt",
+      "url": "https://www.duck-hunt.org",
+      "category": "Retro",
+      "icon": "assets/icons/games/duck-hunt.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.duck-hunt.org",
+      "autoplay": false
+    },
+    {
+      "id": "agar-io",
+      "name": "Agar.io",
+      "url": "https://www.agar.io/#ffa",
+      "category": "Multiplayer",
+      "icon": "assets/icons/games/agar-io.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://www.agar.io/#ffa",
+      "autoplay": false
+    },
+    {
+      "id": "slither-io",
+      "name": "Slither.io",
+      "url": "https://slither.com/io",
+      "category": "Multiplayer",
+      "icon": "assets/icons/games/slither-io.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://slither.com/io",
+      "autoplay": false
+    },
+    {
+      "id": "krunker-io",
+      "name": "Krunker.io",
+      "url": "https://krunker.io/?game=DAL:i0p5m",
+      "category": "Multiplayer",
+      "icon": "assets/icons/games/krunker-io.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://krunker.io/?game=DAL:i0p5m",
+      "autoplay": false
+    },
+    {
+      "id": "shell-shockers",
+      "name": "Shell Shockers",
+      "url": "https://shellshock.io",
+      "category": "Multiplayer",
+      "icon": "assets/icons/games/shell-shockers.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://shellshock.io",
+      "autoplay": false
+    },
+    {
+      "id": "paper-io",
+      "name": "Paper.io",
+      "url": "https://paperio.site",
+      "category": "Multiplayer",
+      "icon": "assets/icons/games/paper-io.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://paperio.site",
+      "autoplay": false
+    },
+    {
+      "id": "zombs-royale",
+      "name": "Zombs Royale",
+      "url": "https://zombsroyale.io",
+      "category": "Multiplayer",
+      "icon": "assets/icons/games/zombs-royale.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://zombsroyale.io",
+      "autoplay": false
+    },
+    {
+      "id": "surviv-io",
+      "name": "Surviv.io",
+      "url": "https://surviv.io",
+      "category": "Multiplayer",
+      "icon": "assets/icons/games/surviv-io.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://surviv.io",
+      "autoplay": false
+    },
+    {
+      "id": "snowball-io",
+      "name": "Snowball.io",
+      "url": "https://snowball-io.io",
+      "category": "Multiplayer",
+      "icon": "assets/icons/games/snowball-io.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://snowball-io.io",
+      "autoplay": false
+    },
+    {
+      "id": "skribbl-io",
+      "name": "Skribbl.io",
+      "url": "https://skribbl.io",
+      "category": "Multiplayer",
+      "icon": "assets/icons/games/skribbl-io.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://skribbl.io",
+      "autoplay": false
+    },
+    {
+      "id": "war-brokers",
+      "name": "War Brokers",
+      "url": "https://warbrokers.io/signin.php",
+      "category": "Multiplayer",
+      "icon": "assets/icons/games/war-brokers.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://warbrokers.io/signin.php",
+      "autoplay": false
+    },
+    {
+      "id": "infinite-craft",
+      "name": "Infinite Craft",
+      "url": "https://neal.fun/infinite-craft/",
+      "category": "Sandbox",
+      "icon": "assets/icons/games/infinite-craft.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://neal.fun/infinite-craft/",
+      "autoplay": false
+    },
+    {
+      "id": "sandboxels",
+      "name": "Sandboxels",
+      "url": "https://sandboxels.r74n.com",
+      "category": "Sandbox",
+      "icon": "assets/icons/games/sandboxels.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://sandboxels.r74n.com",
+      "autoplay": false
+    },
+    {
+      "id": "quick-draw",
+      "name": "Quick, Draw!",
+      "url": "https://quickdraw.withgoogle.com",
+      "category": "Creative",
+      "icon": "assets/icons/games/quick-draw.png",
+      "embedMode": "iframe",
+      "fallbackUrl": "https://quickdraw.withgoogle.com",
+      "autoplay": false
+    }
+  ]
+}
