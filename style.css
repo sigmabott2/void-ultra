@@ -1,0 +1,325 @@
+/* --- Your original styles --- */
+
+/* Body + Background */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #0a0a2a; /* solid dark navy background, dots removed */
+  /* background-image: radial-gradient(white 1px, transparent 1px); */
+  /* background-size: 20px 20px; */
+  color: #88ccff;
+  overflow: hidden;
+}
+
+/* Top Nav */
+header {
+  position: fixed;
+  top: 0; width: 100%; height: 50px;
+  display:flex; justify-content: space-between; align-items:center;
+  padding: 0 20px;
+  background: #1a1a2a;
+  z-index: 999;
+}
+.nav-left, .nav-right {
+  display: flex; align-items: center;
+}
+.nav-btn {
+  margin-right: 10px;
+  padding: 8px 12px;
+  border: 2px solid #0055ff;
+  border-radius: 4px;
+  background: transparent;
+  color: #00aaff;
+  font-weight: bold;
+  cursor:pointer;
+  transition: all 0.2s;
+}
+.nav-btn:hover {
+  background: #0055ff;
+  color:#fff;
+}
+
+/* Eject Button */
+#logoutBtn {
+  background: rgba(0,85,255,0.2);
+  border: 2px solid #00aaff;
+  padding: 6px 14px;
+  border-radius: 30px;
+  backdrop-filter: blur(8px);
+  font-weight: bold;
+  cursor:pointer;
+}
+#logoutBtn:hover {
+  background: rgba(0,85,255,0.4);
+}
+
+/* Central Orb & Tagline */
+.central-section {
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  height: calc(100vh - 50px);
+  padding-top:50px;
+  text-align:center;
+  position: relative; /* for space elements */
+}
+.orb-container {
+  width: 120px; height: 120px;
+  margin-bottom: 20px; position:relative;
+}
+#centralOrb {
+  width: 100%; height: 100%;
+  background: #00aaff;
+  border-radius:50%;
+  box-shadow: 0 0 15px #00aaff;
+  animation: ripple 4s infinite ease-in-out;
+  cursor:pointer;
+}
+@keyframes ripple {
+  0%,100% { box-shadow: 0 0 15px #00aaff; }
+  50% { box-shadow: 0 0 25px #00aaff; }
+}
+.tagline {
+  font-size:1.5em;
+  color:#88ccff;
+  margin-bottom:20px;
+}
+
+/* URL Input & Surf Button */
+.url-input-container {
+  display:flex; gap:10px; margin-bottom:30px;
+}
+#urlInput {
+  padding:12px 20px;
+  border:none; border-radius:30px;
+  width:300px;
+  background:#222;
+  color:#88ccff;
+}
+#urlInput::placeholder {
+  color:#6699cc;
+}
+#surfBtn {
+  padding:12px 24px;
+  border:none; border-radius:30px;
+  background:linear-gradient(45deg, #00aaff, #0055ff);
+  color:#fff;
+  font-weight:bold;
+  cursor:pointer;
+  transition: all 0.3s;
+}
+#surfBtn:hover {
+  background-position: right;
+  background-size: 200% 200%;
+  background: linear-gradient(45deg, #00aaff, #0055ff);
+  animation: shimmer 2s infinite;
+}
+@keyframes shimmer {
+  0% { background-position: 0 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+/* Launch Tiles */
+#launchTiles {
+  display:flex; overflow-x:auto; padding:10px 20px; gap:15px;
+}
+.launch-tile {
+  min-width:80px; height:80px;
+  background:#222; border-radius:10px;
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  cursor:pointer; transition: all 0.2s;
+}
+.launch-tile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 10px #00aaff;
+}
+.launch-tile img {
+  width:40px; height:40px; margin-bottom:5px;
+}
+.launch-tile span {
+  font-size:0.8em; color:#88ccff; text-align:center;
+}
+
+/* Stealth Bottom Panel */
+.stealth-panel {
+  position: fixed; bottom:10px; width:100%;
+  display:flex; justify-content:center; gap:20px;
+  font-family:'Inter', sans-serif;
+}
+.blue-btn {
+  background:#0055ff; border:none; padding:8px 16px; border-radius:20px; color:#fff;
+  font-weight:bold; cursor:pointer; transition: background 0.2s;
+}
+.blue-btn:hover {
+  background:#00aaff;
+}
+.small-btn {
+  font-size:0.8em; padding:6px 12px;
+}
+
+/* Modal */
+.modal {
+  position: fixed; top:0; left:0; width:100%; height:100%;
+  background: rgba(0,0,0,0.8);
+  display:flex; justify-content:center; align-items:center;
+  z-index:9999;
+}
+.modal.hidden { display:none; }
+.modal-content {
+  background:#222; padding:20px; border-radius:10px;
+  max-width:90%; max-height:90%; overflow:auto; position:relative;
+}
+#closeIframe, #closeAdmin {
+  position:absolute; top:10px; right:15px;
+  background:none; border:none; font-size:1.5em; color:#88ccff;
+  cursor:pointer;
+}
+#closeIframe:hover, #closeAdmin:hover { color:#fff; }
+
+/* Chat Panel */
+#chatPanel {
+  position: fixed; bottom:20px; right:20px;
+  width:350px; height:400px;
+  background:#222; border-radius:10px; box-shadow:0 0 15px #00aaff;
+  display:flex; flex-direction:column; overflow:hidden; z-index:9999;
+}
+.chat-header {
+  padding:10px; background:#0055ff; color:#fff; font-weight:bold;
+}
+#chatMessages {
+  flex:1; padding:10px; overflow-y:auto; font-size:0.9em; color:#88ccff;
+}
+.chat-input {
+  display:flex;
+}
+#chatInput {
+  flex:1; padding:8px; border:none; background:#333; color:#88ccff;
+}
+#chatSend {
+  padding:8px 12px; background:#0055ff; border:none; color:#fff; font-weight:bold; cursor:pointer;
+}
+#chatSend:hover { background:#00aaff; }
+
+
+/* --- Space-inspired styles added below --- */
+
+body.space-theme {
+  /* Keep your original dark background without dots */
+  background-color: #0a0a2a;
+  /* Remove background-image for dots */
+  /* background-image: radial-gradient(white 1px, transparent 1px); */
+  /* background-size: 20px 20px; */
+  position: relative;
+}
+
+/* Distant Satellite Dot (removed by comment) */
+
+/* Starfield backdrop: remove if you don't want starfield background */
+.starfield {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-image: radial-gradient(circle, #fff 2px, transparent 2px);
+  background-size: 20px 20px;
+  background-position: random;
+  pointer-events: none;
+  z-index: 1;
+  /* Optional: add twinkle animation if wanted */
+  /* animation: twinkleStars 10s linear infinite; */
+}
+/* Optional star twinkle animation */
+/*
+@keyframes twinkleStars {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+*/
+
+/* Glowing Central Orb (futuristic portal) */
+.central-orb {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+  background: radial-gradient(circle, #00aaff, #0077cc);
+  box-shadow: 0 0 20px #00aaff, inset 0 0 20px #00aaff;
+  animation: pulse 4s infinite ease-in-out;
+  border: 4px solid #00aaff;
+  cursor: pointer;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+.central-orb:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px #00aaff, inset 0 0 30px #00aaff;
+}
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 20px #00aaff, inset 0 0 20px #00aaff;
+  }
+  50% {
+    box-shadow: 0 0 40px #22ddff, inset: 0 0 30px #22ddff;
+  }
+}
+
+/* The VOID text with space font */
+.void-text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3em;
+  letter-spacing: 0.05em;
+  color: #88ccff;
+  text-shadow: 0 0 10px #88ccff, 0 0 20px #00aaff;
+  margin-bottom: 20px;
+}
+
+/* Tagline styling */
+.tagline {
+  font-size: 1.2em;
+  color: #66ccff;
+  text-shadow: 0 0 5px #66ccff;
+  margin-bottom: 30px;
+}
+
+/* Input and Button styling (keep your existing styles) */
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#urlInput {
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: 2px solid #00aaff;
+  background-color: transparent;
+  color: #e0f7fa;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1em;
+  outline: none;
+  box-shadow: 0 0 10px #00aaff inset;
+}
+#urlInput::placeholder {
+  color: #66ccff;
+}
+#urlInput:focus {
+  border-color: #22ddff;
+  box-shadow: 0 0 15px #22ddff inset;
+}
+
+#surfBtn {
+  padding: 12px 24px;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(45deg, #00aaff, #22ddff);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00aaff, inset 0 0 10px #00aaff;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+#surfBtn:hover {
+  background-position: right;
+  background-size: 200% 200%;
+  animation: shimmer 2s infinite;
+  transform: scale(1.05);
+}
+@keyframes shimmer {
+  0% { background-position: 0 50%; }
+  100% { background-position: 100% 50%; }
+}
